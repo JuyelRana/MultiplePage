@@ -12,6 +12,7 @@
 		C010F75922695A1B00B89B0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C010F75722695A1B00B89B0A /* Main.storyboard */; };
 		C010F75B22695A1C00B89B0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C010F75A22695A1C00B89B0A /* Assets.xcassets */; };
 		C010F75E22695A1C00B89B0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C010F75C22695A1C00B89B0A /* LaunchScreen.storyboard */; };
+		C010F76622695D3A00B89B0A /* second.swift in Sources */ = {isa = PBXBuildFile; fileRef = C010F76522695D3A00B89B0A /* second.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C010F75A22695A1C00B89B0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C010F75D22695A1C00B89B0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C010F75F22695A1C00B89B0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C010F76522695D3A00B89B0A /* second.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = second.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		C010F75222695A1B00B89B0A /* MultiPage */ = {
 			isa = PBXGroup;
 			children = (
+				C010F76522695D3A00B89B0A /* second.swift */,
 				C010F75322695A1B00B89B0A /* AppDelegate.swift */,
 				C010F75522695A1B00B89B0A /* ViewController.swift */,
 				C010F75722695A1B00B89B0A /* Main.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				C010F75622695A1B00B89B0A /* ViewController.swift in Sources */,
 				C010F75422695A1B00B89B0A /* AppDelegate.swift in Sources */,
+				C010F76622695D3A00B89B0A /* second.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6FYC5H87N6;
 				INFOPLIST_FILE = MultiPage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,7 +297,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.juyelcse11th.MultiPage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -303,6 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6FYC5H87N6;
 				INFOPLIST_FILE = MultiPage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.juyelcse11th.MultiPage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
